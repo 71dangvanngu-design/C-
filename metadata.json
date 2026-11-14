@@ -1,0 +1,6 @@
+{
+  "name": "DIGITAL KNOWLEDGE HUB",
+  "description": "Cyberpunk Dark Technology learning platform with Supabase Authentication, Super Admin Control Panel, and interactive C++ Code Lab.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

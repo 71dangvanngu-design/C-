@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIGITAL KNOWLEDGE HUB</title>
+    <meta name="description" content="Cyberpunk Dark Technology learning platform with Supabase Authentication, Super Admin Control Panel, and interactive C++ Code Lab." />
+    <meta property="og:title" content="DIGITAL KNOWLEDGE HUB" />
+    <meta property="og:description" content="Cyberpunk Dark Technology learning platform with Supabase Authentication, Super Admin Control Panel, and interactive C++ Code Lab." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      window.addEventListener(
+        'error',
+        function (event) {
+          if (
+            event &&
+            typeof event.filename === 'string' &&
+            (event.filename.startsWith('chrome-extension://') ||
+              event.filename.startsWith('moz-extension://'))
+          ) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+          }
+        },
+        true
+      );
+    </script>
+  </head>
+  <body class="bg-[#080B12] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
